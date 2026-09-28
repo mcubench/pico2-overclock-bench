@@ -79,6 +79,8 @@ that divides 1500 MHz to your new target, or drop the fast path. Otherwise
 
 ## Summary results on Feitian PICO2_G9_QE09_v1.0 RP2350 token
 
+<img width="1830" height="516" alt="image" src="https://github.com/user-attachments/assets/07ad1456-96aa-4cf8-8336-2a78448aef3c" />
+
 | Operation | `boost_bench_flash.uf2` | `boost_bench_ram.uf2` |
 |---|---|---|
 | voltage register write          | 21.332 us | 21.334 us |                  
