@@ -94,7 +94,7 @@ that divides 1500 MHz to your new target, or drop the fast path. Otherwise
 | settle delay used               | 50 us | 50 us |
 | round trip, SDK path            | 259 us | 255 us |
 | round trip, postdiv path        | 101 us | 101 us |
-```
+
 
 
 ## Reading the numbers
