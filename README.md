@@ -81,6 +81,8 @@ that divides 1500 MHz to your new target, or drop the fast path. Otherwise
 
 <img width="1830" height="516" alt="image" src="https://github.com/user-attachments/assets/07ad1456-96aa-4cf8-8336-2a78448aef3c" />
 
+Summary: it costs only `101 us` (postdiv path) to switch to 500MHz@1.6V (mainly waiting for 1.6V to stabilize). Switch back is only `~50us` as waiting for 1.1V is not necessary.
+
 | Operation | `boost_bench_flash.uf2` | `boost_bench_ram.uf2` |
 |---|---|---|
 | voltage register write          | 21.332 us | 21.334 us |                  
